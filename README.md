@@ -4,7 +4,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## 📌 Features
+## Features
 
 - Detects full-body human pose in real time using a webcam
 - Identifies potential falls or abnormal postures using landmark positions
@@ -14,7 +14,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 - Utilizes **MediaPipe Pose** to track 33 human body landmarks
 - Continuously monitors the user's pose and posture
@@ -23,7 +23,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## 🎯 Detection Logic (Conceptual)
+## Detection Logic (Conceptual)
 
 - **Key Landmark Ratios**: Tracks the position of hips, shoulders, and head relative to each other and the floor
 - **Torso Angle**: Computes the inclination of the torso to detect slumped or collapsed positions
@@ -32,7 +32,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## 🖼️ Visual Output
+## Visual Output
 
 - Full-body landmark skeleton rendered on live video stream
 - Color-coded connections to indicate tracked joints
@@ -40,7 +40,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## ⚙️ System Requirements
+## System Requirements
 
 - Python 3.7+
 - Webcam or external camera
@@ -50,7 +50,7 @@ This project implements a real-time human fall detection system using **MediaPip
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - `mediapipe`
 - `opencv-python`
